@@ -1,0 +1,43 @@
+@import '../font/OpenSans';
+@import './variable';
+@import "./base";
+@import './mixins';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;1,100&display=swap');
+
+
+//Grid View
+@import "./grid-view/grid";
+@import './second/header';
+@import './second/filtre';
+@import './second/footer';
+
+@import '../js/zoom.js';
+@import '../js/animation.js';
+// firstPages
+@import './first/header';
+@import './first/heading';
+@import './first/products';
+@import './first/farmers';
+@import './first/customers';
+@import './first/headline';
+@import './first/blog';
+@import './first/footer';
+@import './first/media';
+
+//carrot
+@import './carrot/price';
+@import './carrot/description';
+@import './carrot/vitamin';
+@import './carrot/carrot';
+@import './carrot/media';
+
+
+//sixth
+@import './sixth/space-for-blog';
+@import './sixth/archives';
+
+//vendors
+@import './vendors/slick';
+
+

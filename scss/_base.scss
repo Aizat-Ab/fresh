@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+img {
+	border-radius: 5px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+	padding: 0;
+}
+a{
+    text-decoration: none;
+}
+input {
+	outline: none;
+}
+.number {
+	font-size: 12px;
+	color: #6A983C;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	width: 20px;
+	height: 18px;
+	background: #F4F8EC;
+	border-radius: 12px;
+	padding: 0px 8px 0px 10px;
+}
+.title {
+    font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+}
+.section__title{
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 140%;
+	color: #151515;
+}
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+}
+.date{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+}
+.name_of_list{
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+}
+.name {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+}
+.btn {
+	font-size: 15px;
+	font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    background: #6A983C;
+    color: white;
+    border: 2px solid #46760A;
+	transition: 0.5s;
+	cursor: pointer;
+	&:hover {
+		color: #46760A;
+		background: #fff;
+		border: 2px solid #46760A;
+	}
+}
+.btn2  {
+	font-size: 15px;
+	font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    background: #6A983C;
+    color: white;
+    border: 2px solid #46760A;
+	line-height: 22px;
+	width: 93px;
+	height: 36px;
+	padding: 6px 12px;
+	box-sizing: border-box;
+	border-radius: 12px;
+	transition: 0.5s;
+	cursor: pointer;
+	&:hover {
+		color: #46760A;
+		background: #fff;
+		border: 2px solid #46760A;
+	}
+}
+.new__price {
+    font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+.old__price {
+    font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #A9A9A9;
+	margin-top: -15px;
+}
+
+.space{
+	font-weight: 600;
+	font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+}
+.col-1 {
+	max-width: 8.3333%;
+}
+.col-2 {
+	max-width: 16.6666%;
+}
+.col-3 {
+	max-width: 25%;
+}
+.col-4 {
+	max-width: 33.3333%;
+}
+.col-5 {
+	max-width: 41.6666%;
+}
+.col-6 {
+	max-width: 50%;
+}
+.col-7 {
+	max-width: 58.3333%;
+}
+.col-8 {
+	max-width: 66.6666%;
+}
+.col-9 {
+	max-width: 75%;
+}
+.col-10 {
+	max-width: 83.3333%;
+}
+.col-11 {
+	max-width: 91.6666%;
+}
+.col-12 {
+	max-width: 100%;
+}
+p,h1,h2,h3,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+
+button{
+	padding: 0;
+	margin: 0;
+}

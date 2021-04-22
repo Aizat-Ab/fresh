@@ -1,0 +1,85 @@
+.blog{
+    padding-top: 142px;
+    padding-bottom: 128px;
+    &__box{
+        background: url('../img/blog/bg.png') center no-repeat;
+        padding: 24px;
+        box-sizing: border-box;
+        width: 470px;
+        height: 400px;
+        margin-right: 40px;
+    }
+    &__tips{
+        @include font (600, 12px);
+        color: $color-green;
+        font-family: 'Poppins';
+        background: $color-gray;
+        width: 82px;
+        height: 18px;
+        padding: 0 8px 0 8px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 12px;
+    }
+    &__date{
+        display: flex;
+        align-items: center;
+        color: white;
+        img{
+            margin-right: 8px;
+        }
+    }
+    &__description{
+        margin: 228px 0 8px 0px;
+        width: 380px;
+        color: white;
+    }
+    &__profession,
+    &__dates{
+        @include font (400, 12px);
+        font-family: 'Open Sans';
+        color: white;
+    }
+    &__profession{
+        margin-left: 8px;
+    }
+    &__dates{
+        margin-left: 16px;
+    }
+    .col-3{
+        .blog__profession{
+            color: black;
+        }
+        .blog__description{
+            @include font (600, 18px);
+            color: black;
+            width: 270px;
+            margin-bottom: 16px;
+            margin-top: 8px;
+            line-height: 27px;
+        }
+        img{
+            margin-bottom: 24px;
+        }
+    }
+    &__info{
+        display: flex;
+    }
+    &__p{
+        margin-right: 16px;
+    }
+    &__text{
+        width: 225px;
+        margin-bottom: 16px;
+    }
+    &__left{
+        margin-right: 70px;
+    }
+    &__specials{
+        display: flex;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+}

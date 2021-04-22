@@ -1,0 +1,87 @@
+.archives{
+    .heading__item{
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+    .archives__tips{
+        width: 40px;
+        margin: 24px 0 8px 0;
+    }
+    &__words{
+        color: $color-light_gray;
+    }
+    &__text{
+        text-decoration: none;
+        width: 240px;
+        line-height: 19px;
+        margin-top: 8px;
+    }
+    &__input{
+        outline: none;
+        width: 270px;
+        height: 42px;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px;
+        padding: 11px 0 11px 21px;
+        box-sizing: border-box;
+        color: #A9A9A9;
+        cursor: pointer;
+    }
+    &__newsLetter{
+        position: relative;
+    }
+    &__button{
+        position: absolute;
+        top: 11px;
+        right: 16px;
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    &__title{
+        width: 267px;
+        margin-bottom: 16px;
+    }
+    &__box{
+        margin-bottom: 32px;
+        padding-right: 32px;
+    }
+    &__left{
+        margin-right: 32px;
+    }
+    &__link{
+        width: 133px;
+        margin-right: 420px;
+        svg{
+            margin-left: 13px;
+        }
+    }
+    &__articles{
+        color: $color-light_gray;
+        margin-left: 4px;
+    }
+    &__pages{
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    &__ul{
+        display: flex;
+    }
+    &__number{
+        display: flex;
+        align-items: center;
+        margin-right: 420px;
+        p{
+            color: $color-light_gray;
+            margin-right: 8px;
+        }
+    }
+    &__item{
+        margin-left: 8px;
+        span{
+            color: $color-green;
+        }
+    }
+}

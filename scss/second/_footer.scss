@@ -1,0 +1,29 @@
+.footer{
+    padding: 64px 64px;
+    &__column{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        @include font (600, 18px);
+        margin-bottom: 16px;
+    }
+    &__word{
+        @include font (400, 14px);
+        color: $color-green;
+        line-height: 19px;
+    }
+    &__nav{
+        margin-bottom: 16px;
+    }
+    &__words{
+        margin-right: 16px;
+        background: #F5F5F5;
+        padding: 4px 10px;
+        border-radius: 12px;
+        margin-top: 16px;
+    }
+    &__last{
+        margin-top: 48px;
+    }
+}

@@ -1,0 +1,125 @@
+.header{
+    padding: 16px 0;
+    &__word,
+    &__link{
+        display: flex;
+        color: $color-black;
+        margin-right: 33px;
+        box-sizing: border-box;
+        font-family: 'Open Sans';
+        position: relative;
+        @include font (400, 12px); 
+        transition: 0.2s;
+        &:hover{
+        color: $color-green;
+        }
+    }
+    &__item{
+        margin-right: -33px;
+    }
+    &__word{
+        padding-right: 33px;
+        box-sizing: border-box;
+    }
+    &__info{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    &__logoText{
+        @include font (600, 25px);
+        color: $color-black;
+        font-family: 'Poppins', sans-serif;
+    }
+    &__item-four {
+            position: relative;
+            &::before{
+                content: '4';
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                background: $color-brown;
+                top: 13px;
+                left: 100px;
+                border-radius: 50%;
+                color: white;
+                font-family: 'Poppins';
+                @include font (600, 12px);
+                padding: 2px 4px;
+                box-sizing: border-box;
+            }
+            img{
+                margin-left: 40px;
+            }
+    }
+    &__input{
+        @include font (400, 14px);
+        color: $color-light_gray;
+        padding-left: 185px;
+        width: 500px;
+        height: 42px;
+        border: 1px solid #D1D1D1;
+        box-sizing: border-box;
+        border-radius: 12px;
+        background: $color-input_background;
+        font-family: 'Open Sans';
+    }
+        &__label{
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 3px;
+                left: 470px;
+                background: url('../img/header/search.svg') no-repeat center;
+                width: 16px;
+                height: 16px;
+            }
+            &::after{
+                content: '';
+                top: 0;
+                left: 160px;
+                position: absolute;
+                width: 1px;
+                height: 20px;
+                background: $color-light_gray;
+            }
+        }
+    &__search{
+        position: relative;
+        .header__select{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 555;
+        }
+    }
+    &__select{
+        @include font (700, 15px);
+        outline: none;
+        border: none;
+        padding: 9px 0px 10px 16px;
+        background: transparent;
+        margin-top: -8px;
+    }
+    &__ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+        li{
+            margin-right: 10px;
+        }
+    }
+    &__selects{
+        outline: none;
+        border: none;
+        position: relative;
+        @include font (400, 13px);
+    }
+}

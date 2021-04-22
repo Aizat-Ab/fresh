@@ -1,0 +1,127 @@
+.price{
+    font-family: $Open;
+    &__review{
+        @include font (400, 12px);
+        color: $color-light_gray;
+        margin: 7px 0 42px 0;
+        text-decoration: underline;  
+        margin-left: 10px;
+    }
+    &__text{
+        @include font (400, 17px);
+        width: 569px;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
+    &__list,
+    &__list1{
+        @include font (400, 14px);
+        line-height: 19px;
+        margin-bottom: 12px;
+    }
+    &__list1 {
+        color: $color-light_gray;
+    }
+    &__name{
+        margin-right: 39px;
+    }
+    &__stock{
+        color: $color-green;
+    }
+    &__stock,
+    &__veg{
+        text-decoration: underline;
+    }
+    &__cost{
+        display: flex;
+        align-items: center;
+        width: 534px;
+        height: 89px;
+        border: 1px solid #F5F5F5;
+        border-radius: 12px;
+        padding: 16px 16px 16px 16px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    &__new{
+        @include font (600, 26px);
+        color: $color-green;
+    }
+    
+    &__pcs{
+        width: 111px;
+        height: 48px;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px;
+        padding: 15px 15px 15px 50px;
+        box-sizing: border-box;
+        position: relative;
+        margin: 0 24px 0px 94px;
+        svg{
+            margin-left: 8px;
+        }
+        &::before{
+            position: absolute;
+            content: '';
+            top: 14px;
+            left: 39px;
+            width: 1px;
+            height: 20px;
+            background: $color-light_gray;
+        }
+        &::after{
+            content: '1';
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            @include font (400, 14px);
+            font-family: $Open;
+            color: $color-light_gray;
+        }
+    }
+    .col-6{
+        button {
+            width: 140px;
+            height: 47px;
+            padding: 12px 16px;
+        }
+    }
+    &__link{
+        color: white;
+    }
+    .btn2{
+        transition: 0.5s;
+        width: 135px;
+        &:hover{
+            background: rgb(117, 197, 128);
+        }
+    }
+    .col-6{
+        img{
+            margin-right: 30px;
+        }
+    }
+}
+
+//rating
+.raiting{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    &__item{
+        color: #D1D1D1;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.2s;
+        &:hover,
+        &:hover ~ .raiting__item{
+            color: grey;
+        }
+    }
+}
+.raiting[data-total-value="2"] .raiting__item:nth-child(n + 4),
+.raiting[data-total-value="3"] .raiting__item:nth-child(n + 3),
+.raiting[data-total-value="4"] .raiting__item:nth-child(n + 2),
+.raiting[data-total-value="5"] .raiting__item:nth-child(n + 1),
+.raiting[data-total-value="1"] .raiting__item:nth-child(n + 5){
+    color: #FDBC15;
+}

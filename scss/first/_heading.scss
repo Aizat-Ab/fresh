@@ -1,0 +1,90 @@
+.heading{
+    padding-top: 80px;
+    &__item{
+        @include font (400,14px);
+        color: $color-green;
+        font-family: 'Open Sans';
+        margin-bottom: 12px;
+        text-decoration: underline;
+    }
+    &__link{
+        @include font (700, 15px);
+        margin-top: 60px;
+        font-family: 'Open Sans';
+        background: #F5F5F5;
+        padding: 12px 20px;
+        border-radius: 12px;
+        color: black;
+        svg{
+            margin-left: 12px;
+        }
+    }
+    
+    &__ul{
+        margin-bottom: 48px;
+    }
+    &__uptitle{
+        @include font (600, 12px);
+        color: $color-green;
+        font-family: 'Poppins', sans-serif;
+    }
+    &__space{
+        margin: 8px 0 95px 0;
+        color: white;
+    }
+    &__link-right{
+       color:white;
+       width: 163px;
+       height: 47px;
+       border: 2px solid #92C064;
+       border-radius: 12px;
+       padding: 12px 16px;
+       box-sizing: border-box;
+       transition: 0.3s;
+       svg{
+           margin-left: 12px;
+       }
+       &:hover{
+           background: #92C064;
+           svg{
+             path{
+                 stroke: white;
+             }
+           }
+       }
+    }
+    &__box,
+    &__box1{
+        background: url('../img/heading/bread1.png') center no-repeat;
+        padding: 48px 0px 30px 33px;
+        width: 420px;
+        border-radius: 12px;
+        transition: 0.3s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    &__box1{
+        background: url('../img/heading/bread2.png')center no-repeat;
+    }
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__right{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+// .heading__box{
+//     animation-name: img;
+//     animation-timing-function: linear;
+//     animation-iteration-count: infinite;
+// }
+// @keyframes img{
+//     0%{transform: rotate(0deg);}
+//     100%{transform: rotateY(360deg);}
+// }
+

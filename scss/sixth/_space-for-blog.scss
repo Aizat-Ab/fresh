@@ -1,0 +1,39 @@
+.sixth{
+    padding: 56px 0 96px 0;
+    &__box,
+    &__box1{
+        background: center url('../img/sixth/sixth.png') no-repeat;
+        padding: 24px;
+        box-sizing: border-box;
+        width: 570px;
+        color: white;
+        position: relative;
+    }
+    &__box1{
+        background: center url('../img/sixth/sixth1.png') no-repeat;
+    }
+
+    &__description{
+        width: 380px;
+    }
+    &__tips{
+        width: 40px;
+        margin-bottom: 195px;
+    }
+    &__date{
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+        p{
+            margin: 0 8px 0 8px;
+        }
+    }
+    &__row .col-6{
+        &:nth-child(2){
+            margin-left: 30px;
+        }
+    }
+    &__row{
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,17 @@
+.footer{
+    padding: 0;
+    margin-bottom: 64px;
+    &__title{
+        font-family: 'Poppins', sans-serif;
+    }
+    &__word{
+        font-family: 'Open Sans';
+    }
+    &__item{
+        padding-bottom: 42px;
+    }
+    &__words{
+        @include font (600, 12px);
+        font-family: 'Open Sans';
+    }
+}

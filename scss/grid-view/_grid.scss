@@ -1,0 +1,94 @@
+.grid {
+    &__description {
+        font-weight: 400;
+        color: #575757;
+    }
+    &__price {
+        display: flex;
+        align-items: center;
+    }
+    &__box {
+        border: 1px solid #d1d1d1;
+        border-radius: 10px;
+        padding: 7px 5px 5px 7px;
+        height: 370px;
+    }
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.categories {
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -20px;
+    }
+}
+.img-tai {
+    width: 30%;
+    height: 20%;
+}
+.mt {
+    margin-top: 70px;
+}
+.raitings {
+    &__box {
+        display: flex;
+    }
+}
+.checkbox {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.brands {
+    &__box {
+        display: flex;
+        align-items: center;
+        margin-top: -20px;
+        user-select: none;
+    }
+}
+.price {
+    &__inp {
+        width: 80px;
+        height: 42px;
+        border-radius: 12px;
+        background: #F9F9F9;
+        border:1px solid #A9A9A9;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    &__box {
+        display: flex;
+        margin-bottom: 50px;
+        .box_right {
+            margin-left: 30px;
+        }
+    }
+    &__bottom {
+        display: flex;
+    }
+}
+.btn {
+    width: 52px;
+    height: 22px;
+    border-radius: 12px;
+    padding: 12px 12px 12px 20px;
+    background: #6A983C;
+    color: white;
+    border: 2px solid #46760A;
+}
+.buy {
+    width: 70px;
+    margin-left: 40px;
+}
+.reset {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #A9A9A9;
+    margin-left: 40px;
+}
